@@ -1,0 +1,247 @@
+body {
+    background-color: rgba(127, 255, 212, 0.4);
+    z-index: -1;
+
+    margin: 3em;
+}
+
+
+/* navbar section */
+.nav--list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    height: 3em;
+
+}
+
+.nav--list li {
+    float: right;
+}
+
+.nav--list li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 15px 17px;
+    font-size: 18px;
+    font-family: 'Teko', Times, serif;
+
+}
+
+.nav--list li:hover {
+    color: rgb(146, 22, 74);
+    background-color: rgba(85, 223, 43, 0.295);
+
+}
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+}
+
+.content h1 {
+    font-family: 'Anton';
+    border-bottom: 6px solid red;
+    width: 99%;
+    padding: 4px;
+    margin-left: 0;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.content p {
+    line-height: 2;
+    font-family: 'Teko', Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    font-weight: 550;
+}
+
+.profile--pic img {
+    box-shadow: 10px 3px 5px rgba(6, 162, 214, 0.281);
+    margin-top: 0;
+    border-radius: 50%;
+    height: 14rem;
+}
+
+.profile--pic img:hover {
+    transform: scale(1.2);
+    border-color: red;
+}
+
+.skills {
+
+    display: block;
+}
+
+.skills h2 {
+    font-family: 'Teko', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #070808;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: red;
+    cursor: pointer;
+}
+
+
+
+
+.skills li {
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: rgba(228, 188, 101, 0.747);
+    width: 150px;
+    height: 30px;
+    padding: 8px;
+    margin: 9px 8px;
+    text-align: center;
+
+}
+
+.icon-text {
+    font-family: 'Teko';
+    font-size: 17px;
+    text-align: center;
+    margin: 12px 5px;
+    padding: 12px 5px;
+    font-weight: 800;
+
+}
+
+.skills li:hover {
+    cursor: pointer;
+    background-color: green;
+    color: black;
+    box-shadow: 12px 12px 7px lightblue;
+    border-color: red;
+    transform: scale(1.1);
+}
+
+.icon-style {
+    font-size: 20px;
+    color: #000;
+}
+
+
+.projects {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Teko', Arial, Helvetica, sans-serif;
+}
+
+.project--head {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.project--content {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.project--content img {
+    width: 100%;
+    height: 20vh;
+}
+
+.project--content img:hover {
+    transform: scale(1.1);
+}
+
+.project--title {
+    font-size: 20px;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #ccc;
+}
+
+.project--desc {
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.project--head {
+    text-align: left;
+}
+
+.project--content a {
+    text-decoration: none;
+}
+
+.contact--head {
+    font-family: 'Teko', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+
+.contact--icon {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact--icon li {
+    display: inline-block;
+    padding: 8px;
+    background-color: #ffff4d;
+    margin: 9px 8px;
+    text-align: center;
+}
+
+.contact--icon li:hover {
+    cursor: pointer;
+    transform: translateY(-3px) rotate(6deg);
+    transition: all .5s ease-in-out;
+    color: #0040ff;
+    font-weight: 800;
+}
+
+.gmail--icon {
+    color:inherit;
+}
+
+
+
+.icon-text {
+    font-family: 'Teko';
+    font-size: 17px;
+    text-align: center;
+    margin: 12px 5px;
+    padding: 12px 5px;
+    font-weight: 800;
+}
+
+.contact--icon li a {
+    text-decoration: none;
+    color: inherit;
+}
